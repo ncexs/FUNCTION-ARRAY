@@ -1,0 +1,13 @@
+<html>
+<body>
+    <script>
+        function calFahrenheit(cel) {
+            return (cel*9/5)+32; //Conversion formula
+        }
+
+        document.write(calFahrenheit(0)+"<br/>")
+        document.write(calFahrenheit(20)+"<br/>")
+        document.write(calFahrenheit(40)+"<br/>")
+    </script>
+</body>
+</html>
